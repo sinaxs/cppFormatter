@@ -1,0 +1,2 @@
+/usr/local/lib/libcppFormater.a
+/usr/local/include/cppFormater/cppFormater.h
