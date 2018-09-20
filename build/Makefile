@@ -48,10 +48,10 @@ RM = /opt/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sb18/my-repos/cppFormater
+CMAKE_SOURCE_DIR = /home/sb18/my-repos/cppFormatter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sb18/my-repos/cppFormater/build
+CMAKE_BINARY_DIR = /home/sb18/my-repos/cppFormatter/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormater/build/CMakeFiles /home/sb18/my-repos/cppFormater/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormatter/build/CMakeFiles /home/sb18/my-repos/cppFormatter/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormater/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormatter/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -157,44 +157,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cppFormater
+# Target rules for targets named cppFormatter
 
 # Build rule for target.
-cppFormater: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cppFormater
-.PHONY : cppFormater
+cppFormatter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cppFormatter
+.PHONY : cppFormatter
 
 # fast build rule for target.
-cppFormater/fast:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/build
-.PHONY : cppFormater/fast
+cppFormatter/fast:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/build
+.PHONY : cppFormatter/fast
 
-cppFormater.o: cppFormater.cpp.o
+cppFormatter.o: cppFormatter.cpp.o
 
-.PHONY : cppFormater.o
+.PHONY : cppFormatter.o
 
 # target to build an object file
-cppFormater.cpp.o:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/cppFormater.cpp.o
-.PHONY : cppFormater.cpp.o
+cppFormatter.cpp.o:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/cppFormatter.cpp.o
+.PHONY : cppFormatter.cpp.o
 
-cppFormater.i: cppFormater.cpp.i
+cppFormatter.i: cppFormatter.cpp.i
 
-.PHONY : cppFormater.i
+.PHONY : cppFormatter.i
 
 # target to preprocess a source file
-cppFormater.cpp.i:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/cppFormater.cpp.i
-.PHONY : cppFormater.cpp.i
+cppFormatter.cpp.i:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/cppFormatter.cpp.i
+.PHONY : cppFormatter.cpp.i
 
-cppFormater.s: cppFormater.cpp.s
+cppFormatter.s: cppFormatter.cpp.s
 
-.PHONY : cppFormater.s
+.PHONY : cppFormatter.s
 
 # target to generate assembly for a file
-cppFormater.cpp.s:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/cppFormater.cpp.s
-.PHONY : cppFormater.cpp.s
+cppFormatter.cpp.s:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/cppFormatter.cpp.s
+.PHONY : cppFormatter.cpp.s
 
 # Help Target
 help:
@@ -204,14 +204,14 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... cppFormater"
+	@echo "... cppFormatter"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... install"
 	@echo "... list_install_components"
-	@echo "... cppFormater.o"
-	@echo "... cppFormater.i"
-	@echo "... cppFormater.s"
+	@echo "... cppFormatter.o"
+	@echo "... cppFormatter.i"
+	@echo "... cppFormatter.s"
 .PHONY : help
 
 

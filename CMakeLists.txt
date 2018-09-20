@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(cppFormater)
+project(cppFormatter)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR}/../)
 
@@ -7,12 +7,12 @@ set(CMAKE_CXX_STANDARD 11)
 
 find_package (Threads)
 
-set(INCLUDE_FILES cppFormater.h)
+set(INCLUDE_FILES cppFormatter.h)
 
-set(SOURCE_FILES cppFormater.cpp)
+set(SOURCE_FILES cppFormatter.cpp)
 
-ADD_LIBRARY(cppFormater STATIC ${SOURCE_FILES})
+ADD_LIBRARY(cppFormatter STATIC ${SOURCE_FILES})
 
-install (TARGETS cppFormater DESTINATION lib)
+install (TARGETS cppFormatter DESTINATION lib)
 
-INSTALL(FILES ${INCLUDE_FILES} DESTINATION include/cppFormater)
+INSTALL(FILES ${INCLUDE_FILES} DESTINATION include/cppFormatter)

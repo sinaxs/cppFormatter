@@ -59,45 +59,45 @@ RM = /opt/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sb18/my-repos/cppFormater
+CMAKE_SOURCE_DIR = /home/sb18/my-repos/cppFormatter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sb18/my-repos/cppFormater/build
+CMAKE_BINARY_DIR = /home/sb18/my-repos/cppFormatter/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/cppFormater.dir
+# Target rules for target CMakeFiles/cppFormatter.dir
 
 # All Build rule for target.
-CMakeFiles/cppFormater.dir/all:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/depend
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sb18/my-repos/cppFormater/build/CMakeFiles --progress-num=1,2 "Built target cppFormater"
-.PHONY : CMakeFiles/cppFormater.dir/all
+CMakeFiles/cppFormatter.dir/all:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/depend
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sb18/my-repos/cppFormatter/build/CMakeFiles --progress-num=1,2 "Built target cppFormatter"
+.PHONY : CMakeFiles/cppFormatter.dir/all
 
 # Include target in all.
-all: CMakeFiles/cppFormater.dir/all
+all: CMakeFiles/cppFormatter.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cppFormater.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormater/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cppFormater.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormater/build/CMakeFiles 0
-.PHONY : CMakeFiles/cppFormater.dir/rule
+CMakeFiles/cppFormatter.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormatter/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cppFormatter.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sb18/my-repos/cppFormatter/build/CMakeFiles 0
+.PHONY : CMakeFiles/cppFormatter.dir/rule
 
 # Convenience name for target.
-cppFormater: CMakeFiles/cppFormater.dir/rule
+cppFormatter: CMakeFiles/cppFormatter.dir/rule
 
-.PHONY : cppFormater
-
-# clean rule for target.
-CMakeFiles/cppFormater.dir/clean:
-	$(MAKE) -f CMakeFiles/cppFormater.dir/build.make CMakeFiles/cppFormater.dir/clean
-.PHONY : CMakeFiles/cppFormater.dir/clean
+.PHONY : cppFormatter
 
 # clean rule for target.
-clean: CMakeFiles/cppFormater.dir/clean
+CMakeFiles/cppFormatter.dir/clean:
+	$(MAKE) -f CMakeFiles/cppFormatter.dir/build.make CMakeFiles/cppFormatter.dir/clean
+.PHONY : CMakeFiles/cppFormatter.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cppFormatter.dir/clean
 
 .PHONY : clean
 

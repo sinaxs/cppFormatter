@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sb18/my-repos/cppFormater/cppFormater.cpp
-cppFormater.h
-/home/sb18/my-repos/cppFormater/cppFormater.h
+/home/sb18/my-repos/cppFormatter/cppFormatter.cpp
+cppFormatter.h
+/home/sb18/my-repos/cppFormatter/cppFormatter.h
 
-/home/sb18/my-repos/cppFormater/cppFormater.h
+/home/sb18/my-repos/cppFormatter/cppFormatter.h
 iostream
 -
 string
@@ -18,5 +18,7 @@ string
 thread
 -
 chrono
+-
+sstream
 -
 
