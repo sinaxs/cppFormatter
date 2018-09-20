@@ -9,7 +9,7 @@ make install
 ```
 ## Usage
 
-In your c code add this:
+At the top of your c code just add this:
 
 ```c
 #include <cppFormatter/cppFormatter.h>
