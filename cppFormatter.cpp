@@ -14,26 +14,18 @@
 
 #include "cppFormatter.h"
 
-template <class TYPE>
-std::string printRed(TYPE data) {
-    std::ostringstream s;
-    s << "\033[1;31m" << data << "\033[0m";
-    return s.str();
-}
-
-template <class TYPE>
-std::string printYellow(TYPE data) {
-    std::ostringstream s;
-    s << "\033[1;33m" << data << "\033[0m";
-    return s.str();
-}
-
-// std::string printRed(std::string data) {
-//     return "\033[1;31m" + data + "\033[0m";
+// template <class TYPE>
+// std::string printRed(TYPE data) {
+//     std::ostringstream s;
+//     s << "\033[1;31m" << data << "\033[0m";
+//     return s.str();
 // }
 
-// std::string printYellow(std::string data) {
-//     return "\033[1;33m" + data + "\033[0m";
+// template <class TYPE>
+// std::string printYellow(TYPE data) {
+//     std::ostringstream s;
+//     s << "\033[1;33m" << data << "\033[0m";
+//     return s.str();
 // }
 
 std::string printRedLine() {
@@ -55,14 +47,6 @@ std::string printYellowDoubleLine() {
 std::string printLine() {
     return printRed("------------------------------------------");
 }
-
-// std::string printRed(int data) {
-//     return "\033[1;31m" + std::to_string(data) + "\033[0m";
-// }
-
-// std::string printYellow(int data) {
-//     return "\033[1;33m" + std::to_string(data) + "\033[0m";
-// }
 
 void typingPrint(const string &message, unsigned int millis_per_char){
     // Range loops are "for each" constructs; here: for each character in the string

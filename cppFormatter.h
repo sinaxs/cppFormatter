@@ -12,8 +12,8 @@
   
 *****************************************************/
 
-#ifndef APPROXIMATE_ARITHMETIC_FORMATFUN_H
-#define APPROXIMATE_ARITHMETIC_FORMATFUN_H
+#ifndef CPPFORMATTER_H
+#define CPPFORMATTER_H
 
 #include <iostream>
 #include <string>
@@ -41,11 +41,41 @@ void typingPrint(const string &message, unsigned int millis_per_char);
 
 void typingPrint(const string &message);
 
-template <class TYPE>
-std::string printRed(TYPE data);
+//////////////////////////////////////////////////////////////////////
 
 template <class TYPE>
-std::string printYellow(TYPE data);
+std::string printRed(TYPE data) {
+    std::ostringstream s;
+    s << "\033[0;31m" << data << "\033[0m";
+    return s.str();
+};
 
+template <class TYPE>
+std::string printRedB(TYPE data) {
+    std::ostringstream s;
+    s << "\033[1;31m" << data << "\033[0m";
+    return s.str();
+};
 
-#endif //APPROXIMATE_ARITHMETIC_FORMATFUN_H
+template <class TYPE>
+std::string printYellow(TYPE data){
+    std::ostringstream s;
+    s << "\033[0;33m" << data << "\033[0m";
+    return s.str();
+};
+
+template <class TYPE>
+std::string printYellowB(TYPE data){
+    std::ostringstream s;
+    s << "\033[1;33m" << data << "\033[0m";
+    return s.str();
+};
+
+template <class TYPE>
+std::string printBold(TYPE data){
+    std::ostringstream s;
+    s << "\033[1;1m" << data << "\033[0m";
+    return s.str();
+};
+
+#endif //CPPFORMATTER_H
