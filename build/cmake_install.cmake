@@ -1,4 +1,4 @@
-# Install script for directory: /home/sb18/my-repos/cppFormatter
+# Install script for directory: /home/sinaxs/myRepo/cppFormatter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,11 +38,11 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sb18/my-repos/cppFormatter/build/libcppFormatter.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/sinaxs/myRepo/cppFormatter/build/libcppFormatter.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cppFormatter" TYPE FILE FILES "/home/sb18/my-repos/cppFormatter/cppFormatter.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/cppFormatter" TYPE FILE FILES "/home/sinaxs/myRepo/cppFormatter/cppFormatter.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sb18/my-repos/cppFormatter/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sinaxs/myRepo/cppFormatter/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

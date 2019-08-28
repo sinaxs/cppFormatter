@@ -1,7 +1,7 @@
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/install/strip.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/install/local.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/cppFormatter.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/edit_cache.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/rebuild_cache.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/install.dir
-/home/sb18/my-repos/cppFormatter/build/CMakeFiles/list_install_components.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/install/strip.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/edit_cache.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/cppFormatter.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/rebuild_cache.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/list_install_components.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/install/local.dir
+/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/install.dir

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sb18/my-repos/cppFormatter/cppFormatter.cpp
+/home/sinaxs/myRepo/cppFormatter/cppFormatter.cpp
 cppFormatter.h
-/home/sb18/my-repos/cppFormatter/cppFormatter.h
+/home/sinaxs/myRepo/cppFormatter/cppFormatter.h
 
-/home/sb18/my-repos/cppFormatter/cppFormatter.h
+/home/sinaxs/myRepo/cppFormatter/cppFormatter.h
 iostream
 -
 string

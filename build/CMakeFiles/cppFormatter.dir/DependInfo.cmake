@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sb18/my-repos/cppFormatter/cppFormatter.cpp" "/home/sb18/my-repos/cppFormatter/build/CMakeFiles/cppFormatter.dir/cppFormatter.cpp.o"
+  "/home/sinaxs/myRepo/cppFormatter/cppFormatter.cpp" "/home/sinaxs/myRepo/cppFormatter/build/CMakeFiles/cppFormatter.dir/cppFormatter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

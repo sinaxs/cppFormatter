@@ -28,27 +28,27 @@
 //     return s.str();
 // }
 
-std::string printRedLine() {
+std::string cppFormatter::printRedLine() {
     return printRed("------------------------------------------");
 }
 
-std::string printRedDoubleLine() {
+std::string cppFormatter::printRedDoubleLine() {
     return printRed("==========================================");
 }
 
-std::string printYellowLine() {
+std::string cppFormatter::printYellowLine() {
     return printYellow("------------------------------------------");
 }
 
-std::string printYellowDoubleLine() {
+std::string cppFormatter::printYellowDoubleLine() {
     return printYellow("==========================================");
 }
 
-std::string printLine() {
+std::string cppFormatter::printLine() {
     return printRed("------------------------------------------");
 }
 
-void typingPrint(const string &message, unsigned int millis_per_char){
+void cppFormatter::typingPrint(const string &message, unsigned int millis_per_char){
     // Range loops are "for each" constructs; here: for each character in the string
     for (const char c: message)
     {
@@ -60,7 +60,7 @@ void typingPrint(const string &message, unsigned int millis_per_char){
     }
 }
 
-void typingPrint(const string &message){
+void cppFormatter::typingPrint(const string &message){
     // Range loops are "for each" constructs; here: for each character in the string
     for (const char c: message)
     {
